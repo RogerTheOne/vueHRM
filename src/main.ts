@@ -7,4 +7,6 @@ import App from '@/App.vue'
 const app = createApp(App)
 //安装element-plus
 app.use(ElementPlus)
+//svg插件需要配置代码
+import 'virtual:svg-icons-register'
 app.mount('#app')
